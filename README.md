@@ -13,6 +13,10 @@ To stop docker machine
 
 	$ docker-machine stop <name>
 	
+To configure your shell
+
+	$ eval "$(docker-machine env default)"
+	
 ## Docker Images
 
 To show list of images
