@@ -12,3 +12,17 @@ To start docker machine
 To stop docker machine
 
 	$ docker-machine stop <name>
+	
+## Docker Images
+
+To show list of images
+
+	$ docker images
+
+To delete image
+
+	$ docker rmi <images id>
+	
+To delete all images
+
+	$ docker rmi $(docker images -q)
