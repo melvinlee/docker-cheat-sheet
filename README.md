@@ -73,35 +73,35 @@ To delete all images
 
 To show list of running container
 
-	# docker ps
+	$ docker ps
 
 To show list of all container
 
-	# docker ps -a
+	$ docker ps -a
 
 To delete container
 
-	# docker rm <container_id>
+	$ docker rm <container_id>
 	
 To delete all container
 
-	# docker rm $(docker ps -a -q)
+	$ docker rm $(docker ps -a -q)
 	
 To run new container with interactive mode
 
-	# docker run -i -t nginx /bin/bash
+	$ docker run -i -t nginx /bin/bash
 	
 To run new container with daemon mode
 
-	# docker run -d -p 8888:8888 -t nginx
+	$ docker run -d -p 8888:8888 -t nginx
 	
 To stop running container
 
-	# docker stop <container_id>
+	$ docker stop <container_id>
 	
 To start container
 
-	# docker start <container_id>
+	$ docker start <container_id>
 	
 ## Bash / SSH
 
