@@ -103,3 +103,9 @@ To start container
 
 	# docker start <container_id>
 	
+## Bash / SSH
+
+To bash into a running container
+
+	$ docker exec -i -t <container_id> /bin/bash
+	
