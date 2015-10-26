@@ -68,3 +68,38 @@ To delete all images
 - Run build
 
 		$ docker build -t nginx .
+		
+## Docker Container
+
+To show list of running container
+
+	# docker ps
+
+To show list of all container
+
+	# docker ps -a
+
+To delete container
+
+	# docker rm <container_id>
+	
+To delete all container
+
+	# docker rm $(docker ps -a -q)
+	
+To run new container with interactive mode
+
+	# docker run -i -t nginx /bin/bash
+	
+To run new container with daemon mode
+
+	# docker run -d -p 8888:8888 -t nginx
+	
+To stop running container
+
+	# docker stop <container_id>
+	
+To start container
+
+	# docker start <container_id>
+	
